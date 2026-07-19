@@ -19,6 +19,16 @@ The column value will be ignored for repeat sections.
 
 export const Formats: import('../sim/dex-formats').FormatList = [
 
+	{
+		section: "LGPE Rands",
+	},
+	{
+		name: "[Gen 7 Let's Go] Random Battle",
+		mod: 'gen7letsgo',
+		team: 'random',
+		searchShow: true,
+		ruleset: ['Obtainable', 'Allow AVs', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod'],
+	},
 	// S/V Singles
 	///////////////////////////////////////////////////////////////////
 
@@ -2867,13 +2877,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		searchShow: false,
 		ruleset: ['HP Percentage Mod', 'Cancel Mod'],
 		banlist: ['Nonexistent'],
-	},
-	{
-		name: "[Gen 7 Let's Go] Random Battle",
-		mod: 'gen7letsgo',
-		team: 'random',
-		searchShow: false,
-		ruleset: ['Obtainable', 'Allow AVs', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod'],
 	},
 	{
 		name: "[Gen 6] Random Battle",

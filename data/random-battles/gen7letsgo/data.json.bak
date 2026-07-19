@@ -352,7 +352,7 @@
         "moves": ["icebeam", "roost", "substitute", "toxic", "uturn"]
     },
     "zapdos": {
-        "level": 70,
+        "level": 68,
         "moves": ["drillpeck", "roost", "thunderbolt", "toxic", "uturn"]
     },
     "moltres": {

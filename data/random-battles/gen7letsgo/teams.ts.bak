@@ -94,7 +94,7 @@ export class RandomLetsGoTeams extends RandomGen8Teams {
 			return {cull: moves.has('earthquake')};
 		case 'icebeam':
 			return {cull: moves.has('blizzard') || moves.has('icepunch')};
-		case 'hydropump':
+		case 'hydropump': case 'willowisp':
 			return {cull: moves.has('scald') || moves.has('surf')};
 		case 'scald':
 			return {cull: moves.has('hydropump') || moves.has('surf') || moves.has('waterfall')};
